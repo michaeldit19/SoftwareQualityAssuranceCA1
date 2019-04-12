@@ -4,8 +4,10 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+//class include 'test' at the end
 public class StringCalculatorTest {
 
+	// test methods prefixed with the word test
 	@Test
 	public void testAddNumbers() {
 		StringCalculator tester = new StringCalculator();
